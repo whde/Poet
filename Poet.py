@@ -6,12 +6,13 @@ import importlib
 from bs4 import BeautifulSoup
 from urllib.parse import quote
 import urllib3
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 import string
 import time
 import re
 import pymysql
 import hashlib
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
 root_folder = 'images/'
